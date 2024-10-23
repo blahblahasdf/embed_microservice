@@ -15,7 +15,6 @@ The service is optimized to handle two main use cases:
 - Batch processing capabilities for multiple documents
 - Comprehensive text preprocessing and cleaning tailored for legal text
 - Health check endpoint
-- OpenAPI documentation
 
 ## Installation
 
