@@ -39,12 +39,12 @@ This project uses Poetry for dependency management. To get started:
 The easiest way to run the embedding service is using Docker:
 
 ```bash
-docker run -d -p 8005:8005 freelawproject/embedding-service:latest
+docker run -d -p 8005:8005 freelawproject/inception:latest
 ```
 
 To handle more concurrent tasks, increase the number of workers:
 ```bash
-docker run -d -p 8005:8005 -e DOCTOR_WORKERS=16 freelawproject/embedding-service:latest
+docker run -d -p 8005:8005 -e DOCTOR_WORKERS=16 freelawproject/inception:latest
 ```
 
 Test that the service is running:
