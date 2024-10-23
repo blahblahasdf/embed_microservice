@@ -1,9 +1,3 @@
-diff --git a/README.md b/README.md
-new file mode 100644
-index 0000000..34ee552
---- /dev/null
-+++ b/README.md
-@@ -0,0 +1,215 @@
 +# Inception - Text Embedding Service
 +
 +A high-performance FastAPI service for generating text embeddings using SentenceTransformers, specifically designed for processing legal documents and search queries. The service efficiently handles both short search queries and lengthy court opinions, generating semantic embeddings that can be used for document similarity matching and semantic search applications. It includes support for GPU acceleration when available.
