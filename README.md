@@ -44,7 +44,7 @@ docker run -d -p 8005:8005 freelawproject/inception:latest
 
 To handle more concurrent tasks, increase the number of workers:
 ```bash
-docker run -d -p 8005:8005 -e DOCTOR_WORKERS=16 freelawproject/inception:latest
+docker run -d -p 8005:8005 -e EMBEDDING_WORKERS=4 freelawproject/inception:latest
 ```
 
 Test that the service is running:
@@ -133,7 +133,7 @@ Model Settings:
 Server Settings:
 - `HOST`: Server host (default: "0.0.0.0")
 - `PORT`: Server port (default: 8005)
-- `DOCTOR_WORKERS`: Number of Gunicorn workers (default: 4)
+- `EMBEDDING_WORKERS`: Number of Gunicorn workers (default: 4)
 
 GPU Settings:
 - `FORCE_CPU`: Force CPU usage even if GPU is available (default: false)
