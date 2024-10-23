@@ -196,4 +196,4 @@ curl http://localhost:8005/metrics
 ## Requirements
 
 - Python 3.8+
-- CUDA-compatible GPU (optional, for long texts embedding)
+- CUDA-compatible GPU (highly recommended, for long texts embedding)
