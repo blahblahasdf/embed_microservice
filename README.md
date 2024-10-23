@@ -33,6 +33,16 @@ This project uses Poetry for dependency management. To get started:
    ```
 
 ## Quick Start
+## Using Solver
+
+Solver is an AI software engineer designed to assist with codebase management and development tasks. It can be used to automate repetitive tasks, provide insights into code structure, and assist with debugging and optimization.
+
+To integrate Solver with this service, you can use it to:
+- Analyze and optimize code for better performance
+- Automate testing and deployment processes
+- Provide suggestions for improving code quality and maintainability
+
+For more information on using Solver, please refer to the Solver documentation or contact your development team.
 
 ### Running the Service
 
